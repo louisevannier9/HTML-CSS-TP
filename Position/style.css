@@ -8,13 +8,64 @@ html, body {
 
 header {
     text-align: center;
+    font-size: 16px;
     border-bottom: 1px solid gray;
 
 }
 main {
-    height:75vh;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
+
+
+.black-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 750px;
+  height: 300px;
+  border: 2px solid black;
+}   
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.red-box {
+    width: 20px;
+    height:90px;
+    justify-content: space-between;
+    border: 2px solid rgb(11, 10, 10);
+    background-color:red;
+}
+
+.green-box {
+    display: flex;
+    justify-content:center;
+    width: 500px;
+    height:60px;
+    border:2px solid green;
+}
+.green-square{
+    border: 2px solid green;
+    width:90px;
+    height: 60px;
+    background-color: green;
+    margin:10px;
+    align-items: center;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+
+
+
 footer {
     text-align: center;
     border-top: 1px solid grey;
+    width: 100%;
+    line-height: 300%;
 }
+
