@@ -1,0 +1,91 @@
+body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: white;
+    }
+    header {
+        background-color: rgb(70, 154, 215);
+        color: black;
+        padding: 1em 0;
+        text-align: center;
+        
+    }
+    div.nom {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        display : flex;
+        justify-content: flex-start;
+        padding-left: 20px;
+    }
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+    nav ul li a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    /*main*/
+
+    div.a-propos {
+        background-color: white;
+        border: 2px solid black;
+        padding: 10px;
+        margin: 20px auto;
+        width: 80%;
+        text-align: center;
+    }
+    div.compétences {
+        background-color: white;
+        border: 2px solid black;
+        padding: 10px;
+        margin: 20px auto;
+        width: 80%;
+        text-align: center;
+        list-style-type: none;
+    }
+    div.projets {
+        background-color: white;
+        border: 2px solid black;
+        padding: 10px;
+        margin: 20px auto;
+        width: 80%;
+        text-align: center;
+    }
+    /* image*/
+    .logo {
+        margin: 20px auto;
+        max-width: 100%;
+        height: auto;
+        justify-content: flex-start;
+    }
+
+    /* footer */
+
+    footer {
+        background-color: rgb(70, 154, 215);
+        color: black;
+        text-align: center;
+        padding: 1em 0;
+        width: 100%;
+        bottom: 0;
+    }
+
+    div#formulaire {
+        background-color: rgb(70, 154, 215);
+        padding: 20px;
+        margin: 200px auto;
+        width: 300px;
+    }
+

@@ -8,6 +8,11 @@
 </head>
 <body>
     <header>
+        <div class="nom">
+            <p>Vannier</p>
+            <p>Louise</p>
+        </div>
+        <img src="Logo-ecole-18.06.webp" alt="Logo de l'école 18.06" width="60" height="60">
         <h1>Mon portfolio</h1>
         <nav>
             <ul>
@@ -20,23 +25,50 @@
     </header>
 
     <main>
-        <div>
-            <h2>Bienvenue sur mon portfolio</h2>
-            <p>Je suis étudiente à l' école 18.06 en B1 Informatique. Découvrez mes projets et compétences ci-dessous.</p>    
+        <div class="a-propos">
+            <h2>A propos de moi</h2>
+            <p>Je suis étudiente à l' école 18.06 en B1 Informatique.</p>
+            <p>Passionné par la technologie, je me suis récemment reconverti dans l'informatique dans un Bachelor informatique, prête à appliquer mes nouvelles compétences à des projets stimulants.</p>
+        </div>
+
+        <div class="compétences">
+            <h2>Mes compétences</h2>
+            <ul>
+                <p>HTML/CSS</p>
+                <p>Python</p>
+            </ul>
+        </div>
+
+         <div class="projets">
+            <h2>Mes projets</h2>
+            <ul>
+                <p>Projet 1</p>
+                <p>Description du projet 1</p>
+                <p>Projet 2</p>
+                <p>Description du projet 2</p>
+            </ul>
         </div>
     </main>
 
     <footer>
         <div class="contact">
-            <h2>Contactez-nous</h2>
-            <p>&copy; 2024 Mon Site Web. Tous droits réservés.</p>
-            <nav>
-                <ul>
-                    <li><a href="#">Accueil</a></li>
-                    <li><a href="#">À propos</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
+            <h2>Contactez-moi</h2>
+            <p>&copy; 2026 Mon Site Web. Tous droits réservés.</p>
+        </div>
+        <div class="formulaire">
+            <h2>Formulaire de contact</h2>
+            <form>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
         </div>
     </footer>
 </body>
