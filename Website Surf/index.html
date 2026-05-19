@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr"></html>
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,77 +7,81 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="logo surf.webp" alt="logo école de surf" width="60px" height="60px">
-        <h1>Surf Breton</h1>
-        <nav>
+     <header>
+         <img src="logo surf.webp" alt="logo école de surf" width="60px" height="60px">
+         <h1>Surf Breton</h1>
+         <nav>
+             <ul>
+                 <li><a href="#accueil">Accueil</a></li>
+                 <li><a href="#spots">Spots de Surf</a></li>
+                 <li><a href="#nos-prix">Nos Prix</a></li>
+                 <li><a href="#conseils">Conseils pour les Débutants</a></li>
+                 <li><a href="#inscription">Inscription</a></li>
+                 <li><a href="#contact">Contact</a></li>
+             </ul>
+         </nav>
+     </header>
+
+     <main>
+
+         <div id="accueil">
+             <h2>Bienvenue sur Surf <abbr title="La Bretagne ça nous gagne">Breton</abbr></h2>
+             <p>Découvrez les meilleurs spots de surf en Bretagne et préparez-vous à vivre des aventures inoubliables sur les vagues bretonnes !</p>
+         </div>
+
+         <div id="spots">
+             <h2>Spots de Surf en Bretagne</h2>
+             <ul>
+                 <li><strong>La Torche:</strong> Un spot emblématique pour les surfeurs de tous niveaux.</li>
+                 <li><strong>Pen-Hir:</strong> Connu pour ses vagues puissantes et son cadre spectaculaire.</li>
+                 <li><strong>Les Dunes d'Erdeven:</strong> Parfait pour les débutants avec ses vagues douces.</li>
+             </ul>
+         </div>
+
+         <div id="nos-prix">
+             <h2>Nos Prix</h2>
+             <p>Découvrez nos tarifs compétitifs pour les cours de surf et les locations de matériel :</p>
+             <ul>
+                 <li>Cours individuels: 30€</li>
+                 <li>Cours en groupe: 20€</li>
+                 <li>Location de planche: 15€/jour</li>
+             </ul>
+         </div>
+
+         <div id="conseils">
+             <h2>Conseils pour les Débutants</h2>
+             <p>Si vous débutez dans le surf, voici quelques conseils pour vous aider à démarrer :</p>
+             <ul>
+                 <li>Commencez par prendre des cours avec un instructeur qualifié.</li>
+                 <li>Utilisez une planche adaptée à votre niveau, comme une planche en mousse.</li>
+                 <li>Apprenez à lire les conditions de la mer et à respecter les règles de sécurité.</li>
+             </ul>
+         </div>
+
+         <div id ="inscription">
+                <h2>Inscrivez-vous à nos cours de surf</h2>
+                <form>
+                    <label for="nom">Nom:</label>
+                    <input type="text" id="nom" name="nom" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <div id ="button"><button type="submit">Envoyer</button></div>
+                </form>
+                <div id = "image-enfant">
+                   <img src="enfant qui surf.webp" alt="enfant qui surf" width="300px" height="150px">
+               </div>
+         </div>
+     </main>
+
+     <footer>
+       <div id="contact">
+            <h2>Contactez-nous</h2>
+            <p>Pour plus d'informations ou pour réserver une session de surf, n'hésitez pas à nous contacter :</p>
             <ul>
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#spots">Spots de Surf</a></li>
-                <li><a href="#conseils">Conseils pour les Débutants</a></li>
-                <li><a href="#contact">Contact</a></li>
+               <li>Email: contact@surfbreton.fr</li>
+               <li>Téléphone: 01 02 03 04 05</li>
             </ul>
-        </nav>
-    </header>
-
-    <main>
-
-     <div id="accueil">
-         <h2>Bienvenue sur Surf <abbr title="La Bretagne ça nous gagne">Breton</abbr></h2>
-         <p>Découvrez les meilleurs spots de surf en Bretagne et préparez-vous à vivre des aventures inoubliables sur les vagues bretonnes !</p>
-     </div>
-
-     <div id="spots">
-         <h2>Spots de Surf en Bretagne</h2>
-         <ul>
-             <li><strong>La Torche:</strong> Un spot emblématique pour les surfeurs de tous niveaux.</li>
-             <li><strong>Pen-Hir:</strong> Connu pour ses vagues puissantes et son cadre spectaculaire.</li>
-             <li><strong>Les Dunes d'Erdeven:</strong> Parfait pour les débutants avec ses vagues douces.</li>
-         </ul>
-     </div>
-
-     <div id="Nos-prix">
-         <h2>Nos Prix</h2>
-         <p>Découvrez nos tarifs compétitifs pour les cours de surf et les locations de matériel :</p>
-         <ul>
-             <li>Cours individuels: 30€</li>
-             <li>Cours en groupe: 20€</li>
-             <li>Location de planche: 15€/jour</li>
-         </ul>
-     </div>
-
-     <div id="conseils">
-         <h2>Conseils pour les Débutants</h2>
-         <p>Si vous débutez dans le surf, voici quelques conseils pour vous aider à démarrer :</p>
-         <ul>
-             <li>Commencez par prendre des cours avec un instructeur qualifié.</li>
-             <li>Utilisez une planche adaptée à votre niveau, comme une planche en mousse.</li>
-             <li>Apprenez à lire les conditions de la mer et à respecter les règles de sécurité.</li>
-         </ul>
-     </div>
-
-     <div id ="Inscription">
-            <h2>Inscrivez-vous à nos cours de surf</h2>
-            <form>
-                <label for="nom">Nom:</label>
-                <input type="text" id="nom" name="nom" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <div id ="button"><button type="submit">Envoyer</button></div>
-            </form>
-            <div id = "image-enfant"><img src="enfant qui surf.webp" alt="enfant qui surf" width="300px" height="150px"></div>
-     </div>
-    </main>
-
-    <footer>
-      <div id="contact">
-           <h2>Contactez-nous</h2>
-           <p>Pour plus d'informations ou pour réserver une session de surf, n'hésitez pas à nous contacter :</p>
-           <ul>
-              <li>Email: contact@surfbreton.fr</li>
-              <li>Téléphone: 01 02 03 04 05</li>
-           </ul>
-        </div>
-    </footer>
-</body>
+         </div>
+     </footer>
+ </body>
 </html>
