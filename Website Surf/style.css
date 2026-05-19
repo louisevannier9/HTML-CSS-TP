@@ -10,6 +10,17 @@
             padding: 1em 0;
             text-align: center;
         }
+        abbr {
+            color:blue;
+            font-weight: bold;
+            transition: color 0.5s ease;
+        }
+        @media (hover:hover) {
+            abbr:hover {
+                color: red;
+                transition-duration: 0.5s;
+            }
+        }
         nav ul {
             list-style-type: none;
             padding: 0;
@@ -71,4 +82,19 @@
         div#image-enfant {
             width: 600px;
             height: 300px;
+            display: flex;
+            justify-content: center;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            div#accueil, div#spots, div#Nos-prix, div#conseils, div#Inscription, div#button {
+                width: 100%;
+                padding: 10px;
+            }
+            div#image-enfant {
+                width: 100%;
+                height: auto;
+            }
         }
