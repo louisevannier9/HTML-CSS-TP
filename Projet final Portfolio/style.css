@@ -71,6 +71,22 @@ body {
         justify-content: flex-start;
     }
 
+    .aero {
+        margin: 20px auto;
+        max-width: 100%;
+        height: auto;
+        float: left;
+        margin-right: 10px;
+    }
+    video {
+        margin: 20px auto;
+        max-width: 10%;
+        height: auto;
+        float: left;
+        margin-right: 10px;
+        display: flex;
+    }
+
     /* footer */
 
     footer {
