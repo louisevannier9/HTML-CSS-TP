@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^produits/([a-zA-Z0-9-]+)/?$ produit.php?nom=$1 [L]   
